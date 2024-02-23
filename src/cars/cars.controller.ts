@@ -14,7 +14,7 @@ export class CarsController {
     const obj: Car = {
       name: 'lakshmaiha',
       model: 2345,
-      year: 12345,
+      year: 1234,
     };
     console.log();
     return this.carsService.create(createCatDto);

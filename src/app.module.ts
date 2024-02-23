@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { CatModule } from './cats/cats.module';
 import { CarsModule } from './cars/cars.module';
+import { RoleGuard } from './auth/role/role.guard';
 
 @Module({
   imports: [CatModule, CarsModule],
